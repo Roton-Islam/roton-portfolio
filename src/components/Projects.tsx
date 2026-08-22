@@ -6,7 +6,6 @@ export default function Projects() {
   return (
     <section id="projects" className="bg-[#050816] px-6 py-24">
       <div className="mx-auto max-w-7xl">
-        {/* Heading */}
         <div className="mb-12 text-center">
           <p className="mb-3 text-sm font-medium uppercase tracking-[0.3em] text-violet-400">
             My Work
@@ -36,18 +35,14 @@ export default function Projects() {
                   className="object-cover transition duration-500 group-hover:scale-105"
                 />
               </div>
-
               <div className="p-6">
                 <p className="text-sm text-violet-400">{project.category}</p>
-
                 <h3 className="mt-2 text-2xl font-semibold text-white">
                   {project.title}
                 </h3>
-
                 <p className="mt-3 leading-7 text-slate-400">
                   {project.description}
                 </p>
-
                 <div className="mt-5 flex flex-wrap gap-2">
                   {project.technologies.map((technology) => (
                     <span
@@ -58,7 +53,6 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-
                 <div className="mt-6 flex gap-3">
                   <a
                     href={project.liveUrl}

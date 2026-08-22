@@ -31,7 +31,7 @@ export default function Contact() {
 
               <div className="mt-8 space-y-5">
                 <a
-                  href="mailto:your-email@gmail.com"
+                  href="mailto:rotonislam7899.ba.uk@gmail.com"
                   className="flex items-center gap-4 text-slate-300 transition hover:text-violet-400"
                 >
                   <Mail className="text-violet-500" size={22} />
@@ -39,7 +39,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/Roton-Islam"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-slate-300 transition hover:text-violet-400"
@@ -48,7 +48,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/in/roton-islam/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-slate-300 transition hover:text-violet-400"
